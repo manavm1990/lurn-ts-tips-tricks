@@ -1,4 +1,4 @@
-export default interface TableProps {
-  items: {id: string}[];
-  renderItem: (item: {id: string}) => React.ReactNode;
+export default interface TableProps<TItem> {
+  items: TItem[];
+  renderItem: (item: TItem) => React.ReactNode;
 }

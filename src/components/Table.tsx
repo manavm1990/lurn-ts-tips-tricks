@@ -1,5 +1,5 @@
 import TableProps from "@interfaces/TableProps";
 
-export default (props: TableProps) => {
+export default <TItem,>(props: TableProps<TItem>) => {
   return null;
-}
+};
